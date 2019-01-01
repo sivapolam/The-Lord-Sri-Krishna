@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_screen_bg">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sri Krishna"
+        android:textColor="@color/red"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_below="@+id/view"
+        android:layout_alignLeft="@+id/view"
+        android:textSize="35sp"
+        android:layout_marginLeft="-40dp"/>
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Lord"
+        android:textColor="@color/red"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_above="@+id/view"
+        android:layout_alignRight="@+id/view"
+        android:paddingLeft="-0dp"
+        android:textSize="30sp"
+        android:layout_marginRight="-30dp"/>
+
+</RelativeLayout>

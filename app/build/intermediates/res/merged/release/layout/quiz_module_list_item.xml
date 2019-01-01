@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.makemobiapps.jesusthelord.util.TextViewCustom
+        android:id="@+id/module_list_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Hello"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/black"
+        android:typeface="serif"/>
+
+    <TextView
+        android:id="@+id/iv_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lock_selector"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:enabled="false"/>
+</RelativeLayout>
+
